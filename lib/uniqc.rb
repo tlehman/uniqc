@@ -1,5 +1,5 @@
 require "uniqc/version"
-require "./lib/array"
+require_relative "array"
 
 module Uniqc
 end

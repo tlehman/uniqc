@@ -6,6 +6,6 @@ describe Uniqc do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect([1,1,1,2].uniqc).to eq([[1,3],[2,1]])
   end
 end
